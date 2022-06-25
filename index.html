@@ -8,7 +8,7 @@
 
         <body>
         
-
+         <!--Employee Payroll App with Logo -->
             <div class="header ">
            
 
@@ -19,7 +19,9 @@
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
          </div>
-        
+
+          <!--Employee Payroll Form with Header and Name-->
+
          <div class="form-content">
          <form class="form" action="#"
          onsubmit="save();return false">
@@ -28,6 +30,9 @@
         <label class="label text" for ="name">Name</label>
         <input class="input" type="text" id="name" name="name" placeholder="your name" required>
      </div>
+
+    <!-- Specify Profile Pic to the Employee Payroll App-->
+
      <div class="row-content">
         <label class="Label text" for="profile">Profile image</label>
         <div class="profile-radio-content">
@@ -47,9 +52,10 @@
                 <input type="radio" id="profile4" name="profile" value="image/profile4" required>
                 <img class="profile" id=image4 src="image/profile4.jpg">
             </label>
-    
         </div>
         </div>
+
+        <!--Employee Payroll Form with Gender, Department and Salary Range-->
         <div class="row-content">
             <label class="Label text" for="gender">Gender</label>
             <div class="gender-radio-content">
@@ -89,6 +95,8 @@
                 </div>
                     </div>
                     </div>
+
+                  <!---  Employee Payroll Form with start date-->
                     <div class="row-content">
                         <label class="Label text" for="startDate">StartDate</label>
                     
@@ -149,6 +157,22 @@
 
                         </select>
                         </div>
+                    </div>
+
+                   <!--- Ability to add Notes and Button -->
+
+                    <div class="row-content">
+                        <label class="Label text" for="notes">Notes</label>
+                      
+                        <textarea id="notes" class="Notes" name="notes" placeholder="" style="height: 100px"></textarea>
+                    </div>
+
+                    <div class="buttonParent">
+                        <a href="index.html" class="resetButton button cancelButton">Cancel</a>
+                    <div class="submit-reset">
+                        <button type="submit" class="button submitButton" id="submitButton">Submit</button>
+                        <button type="reset" class="resetButton button">Reset</button>
+                    </div>
                     </div>
 
 
