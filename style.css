@@ -70,7 +70,7 @@ letter-spacing: 0px;
 .row-content{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     align-items: center;
     border:0px solid green;
 }
@@ -141,4 +141,18 @@ label{
     width: 50vh;
    
     
+}
+select{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    font: normal;
+    letter-spacing: 0px;
+    color: #42515f;
+    background-color: transparent;
+    margin-left: 60px;
+
+    
+   
 }
